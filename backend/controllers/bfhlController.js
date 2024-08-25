@@ -16,9 +16,9 @@ const processData = (req, res) => {
 
     res.json({
         is_success: true,
-        user_id: "john_doe_17091999",  // Replace with dynamic user ID if needed
-        email: "john@xyz.com",          // Replace with the actual email if needed
-        roll_number: "ABCD123",         // Replace with the actual roll number if needed
+        user_id: "21BPS1037",  // Replace with dynamic user ID if needed
+        email: "janice.thomas2021@vitstudent.ac.in",          // Replace with the actual email if needed
+        roll_number: "21BPS1037",         // Replace with the actual roll number if needed
         numbers: numbers,
         alphabets: alphabets,
         highest_lowercase_alphabet: highestLowercaseAlphabet ? [highestLowercaseAlphabet] : []
